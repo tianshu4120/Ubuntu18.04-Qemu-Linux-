@@ -1,0 +1,7 @@
+ 
+#!/bin/sh
+mount proc
+mount -o remount,rw /
+mount -a    
+clear                               
+echo "My Tiny Linux Start :D ......"
